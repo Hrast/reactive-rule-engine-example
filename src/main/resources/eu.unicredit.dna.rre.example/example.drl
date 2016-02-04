@@ -1,0 +1,18 @@
+package eu.unicredit.dna.rre.example
+
+import eu.unicredit.dna.rre.example.model.EventReaction
+import eu.unicredit.dna.rre.example.model.SimpleEvent
+
+global akka.actor.ActorRef publisher
+
+declare SimpleEvent
+    @role(event)
+end
+
+rule "Firing simple event"
+when
+    $event: SimpleEvent(id == "AAA")
+then
+    insert(new EventReaction($event.id()));
+end
+
