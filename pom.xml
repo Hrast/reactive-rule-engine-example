@@ -284,6 +284,12 @@
             <organization>Unicredit</organization>
             <organizationUrl>http://www.unicredit.eu</organizationUrl>
         </developer>
+        <developer>
+            <name>Daniele Zonca</name>
+            <email>daniele.zonca@unicredit.eu</email>
+            <organization>Unicredit</organization>
+            <organizationUrl>http://www.unicredit.eu</organizationUrl>
+        </developer>
     </developers>
 
 

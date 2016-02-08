@@ -12,7 +12,7 @@ class RuleReactionHandler extends UntypedActor with ActorLogging {
 
   @throws[Exception](classOf[Exception])
   override def onReceive(message: Any): Unit = {
-    log.debug(s"$message")
+    log.debug(s"Reacting on: $message")
   }
 
 }

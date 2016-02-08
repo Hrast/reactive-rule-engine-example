@@ -1,7 +1,6 @@
 package eu.unicredit.dna.rre.example
 
-import akka.actor.{Props, ActorSystem}
-import com.typesafe.config.{ConfigFactory, Config}
+import akka.actor.{ActorSystem, Props}
 import eu.unicredit.dna.rre.RulesProcessor
 import eu.unicredit.dna.rre.example.model.SimpleEvent
 
