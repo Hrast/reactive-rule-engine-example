@@ -8,4 +8,4 @@ import eu.unicredit.dna.rre.Reaction
   * Date: 4/2/16
   * Time: 17:05
   */
-case class EventReaction(description:String) extends Reaction
+case class SimpleReaction(description:String) extends Reaction
